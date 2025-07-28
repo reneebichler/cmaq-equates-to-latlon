@@ -1,4 +1,4 @@
-# Transform CMAQ EQUATES (row & col) to Lat Lon
+# Convert CMAQ EQUATES (row & col) to lat lon
 
 Within this example we will download "cmaq.equates.conus.conc.NO2" data, identify the surface layer and pick a timestamp. Additionally we will convert the CMAQ EQUATES data from a row and column format to latitude and longitude coordinates (WGS84). Finally, we create a ggplot using EPSG: 5071.
 
