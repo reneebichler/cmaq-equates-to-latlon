@@ -51,7 +51,7 @@ for bdate in dates:
 
     try:
 
-        ## Get a column and surface estimate form CMAQ
+        ## Get a pyrsig API object
         api = pyrsig.RsigApi(bdate = bdate, bbox = bbox, workdir = locname, gridfit = True)
 
         ## Get a column form CMAQ
